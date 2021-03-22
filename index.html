@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link rel="stylesheet" href="index.css">
+        <script type="text/javascript" src="script.js"></script>
         <title>Rin-chan Corporation</title>
     </head>
     <body>
@@ -21,6 +22,7 @@
                     <div class="navbar-nav">
                         <a class="nav-item nav-link active" href="">Home</a>
                         <a class="nav-item nav-link" href="#sector">Sector Files</a>
+                        <a class="nav-item nav-link" href="#metar">Get METAR</a>
                         <a class="nav-item nav-link" href="#license">License</a>
                         <a class="nav-item nav-link" href="#contact">Contact</a>
                     </div>
@@ -83,12 +85,22 @@
                 </tbody>
             </table>
             <p class="text-white">#タクバお断り</p><!--imasuka?-->
-            <br><br>
+            <br>
 
+            <h2 id="metar">Get METAR</h2>
+            <p>下のフォームにICAOコードを入力すると最新のMETARを表示します。Searchを押すと、National Weather Service(アメリカ国立気象局)が管理するサイトに遷移します。</p>
+            <form class="form-inline row" name="form">
+                <div class="form-group offset-1 col-6 col-md-4 col-xl-2">
+                    <input type="text" class="form-control" name="textBox1" id="id_textBox1" placeholder="ICAO Code (Ex. RJTT)">
+                </div>
+                <input type="button" class="btn btn-primary col-3 col-md-2 col-xl-1" name="link" value="Search" onclick="jump()">
+            </form>
+            <br><br>
+            
             <h2 id="license">License</h2>
             <div class="offset-md-1">
                 <p>Copyright (c) 2021 rin9147 / Released under the MIT license.</p>
-                <p>各ファイルごとにLicense.txtを同封してありますが、すべてMIT Licenseとなっています。</p>
+                <p>Sector fileについては、各ファイルごとにLicense.txtを同封してありますが、すべてMIT Licenseとなっています。</p>
                 <p>MIT license: <a href="https://opensource.org/licenses/mit-license.php">English(Open Source Initiative)</a> / <a href="https://licenses.opensource.jp/MIT/MIT.html">日本語(Open Source Group Japan)</a></p>
             </div><br><br>
 
