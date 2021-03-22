@@ -7,3 +7,9 @@ function jump() {
     //metar_URL = "https://tgftp.nws.noaa.gov/data/observations/metar/stations/RJTT.TXT"
     window.open(metar_URL, '_blank')
 }
+
+function enter() {
+    if (window.event.keyCode == 13) {
+        jump();
+    }
+}
