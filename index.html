@@ -91,7 +91,7 @@
             <p>下のフォームにICAOコードを入力すると最新のMETARを表示します。Searchを押すと、National Weather Service(アメリカ国立気象局)が管理するサイトに遷移します。</p>
             <form class="form-inline row" name="form">
                 <div class="form-group offset-1 col-6 col-md-4 col-xl-2">
-                    <input type="text" class="form-control" name="textBox1" id="id_textBox1" onfocus="this.select();" placeholder="ICAO Code (Ex. RJTT)">
+                    <input type="text" class="form-control" name="textBox1" id="id_textBox1" onfocus="this.select();" onkeypress="enter();" placeholder="ICAO Code (Ex. RJTT)">
                 </div>
                 <input type="button" class="btn btn-primary col-3 col-md-2 col-xl-1" name="link" value="Search" onclick="jump()">
             </form>
