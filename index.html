@@ -11,7 +11,8 @@
         <title>Rin-chan Corporation</title>
     </head>
     <body>
-        <div class="col-md-10 offset-md-1  mb-5">
+        <div class="col-md-10 offset-md-1 mb-5">
+            <!--NavBar-->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <a class="navbar-brand" style="padding-left: 10px;" href=""><h1>Rin-chan Corporation</h1></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -31,99 +32,104 @@
 
             <!-- MAIN -->
             <br>
-
-            <p>ここでは、作成したVRCやEuroScope用のセクターファイルなどを公開しています。そのうちシーナリーやリペイントも公開するかもしれないし、しないかもしれません。</p>
-            <p>サイトは開発段階です。そこまで量がないのでGitHub Pagesですが、大きくなってきたらサーバーを借りて動的ページにする予定です。</p>
-            <p>Rin-chan Corporationは実在の法人ではありません！</p>
-            <br>
-
-            <h2 id="sector">Sector Files</h2>
-            <p>DOWNLOADボタンより入手できます。COMMING SOON?表示は、すぐ来るかもしれないし、すぐ来ないかもしれません。いつかできます。</p>
-            <p>AIRPORTのリンクから各詳細を閲覧することができます。</p>
-            <p>セクターファイルの作り方(英語): <a href="https://fsmine.dhis.org/euroscope/design/help/">https://fsmine.dhis.org/euroscope/design/help/</a></p>
-            <table class="table text-center align-middle table-hover">
-                <thead class="thead-lignt">
-                    <tr>
-                        <th scope="col">AIRPORT</th>
-                        <th scope="col">VERSION</th>
-                        <th scope="col">DOWNLOAD</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row"><a href="RJOR/RJOR.html">鳥取空港 Tottori RJOR/TTJ</a></th>
-                        <td>1.0.0<br>2021/03/19</td>
-                        <td>
-                            <a class="btn btn-primary" href="RJOR/RIN_RJOR.zip" role="button">DOWNLOAD</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row"><a href="RJTT/RJTT.html">東京国際空港 Tokyo intl RJTT/HND</a></th>
-                        <td>-</td>
-                        <td>
-                            <a class="btn btn-primary disabled" href="#" role="button">COMMING SOON?</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">-</th>
-                        <td>-</td>
-                        <td>
-                            <a class="btn btn-primary disabled" href="#" role="button">STANDBY</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">-</th>
-                        <td>-</td>
-                        <td>
-                            <a class="btn btn-primary disabled" href="#" role="button">STANDBY</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">-</th>
-                        <td>-</td>
-                        <td>
-                            <a class="btn btn-primary disabled" href="#" role="button">STANDBY</a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p class="text-white">#タクバお断り</p><!--imasuka?-->
-            <br>
-
-            <h2 id="metar">Get METAR</h2>
-            <p>下のフォームにICAOコードを入力すると最新のMETARを表示します。Searchを押すと、National Weather Service(アメリカ国立気象局)が管理するサイトに遷移します。</p>
-            <form class="form-inline row" name="form">
-                <div class="form-group offset-1 col-6 col-md-4 col-xl-2">
-                    <input type="text" class="form-control" name="textBox1" id="id_textBox1" onfocus="this.select();" onkeypress="enter();" placeholder="ICAO Code (Ex. RJTT)">
-                </div>
-                <input type="button" class="btn btn-primary col-3 col-md-2 col-xl-1" name="link" value="Search" onclick="jump()">
-            </form>
-            <br><br>
-            
-            <h2 id="license">License</h2>
-            <div class="offset-md-1">
-                <p>Copyright (c) 2021 rin9147 / Released under the MIT license.</p>
-                <p>Sector fileについては、各ファイルごとにLicense.txtを同封してありますが、すべてMIT Licenseとなっています。</p>
-                <p>MIT license: <a href="https://opensource.org/licenses/mit-license.php">English(Open Source Initiative)</a> / <a href="https://licenses.opensource.jp/MIT/MIT.html">日本語(Open Source Group Japan)</a></p>
-            </div><br><br>
-
-            <h2 id="contact">Contact</h2>
-            <div class="container"></div>
+            <div style="margin-left: 10px; margin-right: 10px;">
+                <p>ここでは、作成したVRCやEuroScope用のセクターファイルなどを公開しています。そのうちシーナリーやリペイントも公開するかもしれないし、しないかもしれません。</p>
+                <p>サイトは開発段階です。そこまで量がないのでGitHub Pagesですが、大きくなってきたらサーバーを借りて動的ページにする予定です。</p>
+                <p>Rin-chan Corporationは実在の法人ではありません！</p>
+                <br>
+                
+                <h2 id="sector">Sector Files</h2>
+                <p>DOWNLOADボタンより入手できます。COMMING SOON?表示は、すぐ来るかもしれないし、すぐ来ないかもしれません。いつかできます。</p>
+                <p>AIRPORTのリンクから各詳細を閲覧することができます。</p>
+                <p>セクターファイルの作り方(英語): <a
+                        href="https://fsmine.dhis.org/euroscope/design/help/">https://fsmine.dhis.org/euroscope/design/help/</a></p>
+                <table class="table text-center align-middle table-hover">
+                    <thead class="thead-lignt">
+                        <tr>
+                            <th scope="col">AIRPORT</th>
+                            <th scope="col">VERSION</th>
+                            <th scope="col">DOWNLOAD</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"><a href="RJOR/RJOR.html">鳥取空港 Tottori RJOR/TTJ</a></th>
+                            <td>1.0.0<br>2021/03/19</td>
+                            <td>
+                                <a class="btn btn-primary" href="RJOR/RIN_RJOR.zip" role="button">DOWNLOAD</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="RJTT/RJTT.html">東京国際空港 Tokyo intl RJTT/HND</a></th>
+                            <td>-</td>
+                            <td>
+                                <a class="btn btn-primary disabled" href="#" role="button">COMMING SOON?</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">-</th>
+                            <td>-</td>
+                            <td>
+                                <a class="btn btn-primary disabled" href="#" role="button">STANDBY</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">-</th>
+                            <td>-</td>
+                            <td>
+                                <a class="btn btn-primary disabled" href="#" role="button">STANDBY</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">-</th>
+                            <td>-</td>
+                            <td>
+                                <a class="btn btn-primary disabled" href="#" role="button">STANDBY</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="text-white">#タクバお断り</p>
+                <!--imasuka?-->
+                <br>
+                
+                <h2 id="metar">Get METAR</h2>
+                <p>下のフォームにICAOコードを入力すると最新のMETARを表示します。Searchを押すと、National Weather Service(アメリカ国立気象局)が管理するサイトに遷移します。</p>
+                <form class="form-inline row" name="form">
+                    <div class="form-group offset-1 col-6 col-md-4 col-xl-2">
+                        <input type="text" class="form-control" name="textBox1" id="id_textBox1" onfocus="this.select();"
+                            onkeypress="enter();" placeholder="ICAO Code (Ex. RJTT)">
+                    </div>
+                    <input type="button" class="btn btn-primary col-3 col-md-2 col-xl-1" name="link" value="Search" onclick="jump()">
+                </form>
+                <br><br>
+                
+                <h2 id="license">License</h2>
+                <div class="offset-md-1">
+                    <p>Copyright (c) 2021 rin9147 / Released under the MIT license.</p>
+                    <p>Sector fileについては、各ファイルごとにLicense.txtを同封してありますが、すべてMIT Licenseとなっています。</p>
+                    <p>MIT license: <a href="https://opensource.org/licenses/mit-license.php">English(Open Source Initiative)</a> / <a
+                            href="https://licenses.opensource.jp/MIT/MIT.html">日本語(Open Source Group Japan)</a></p>
+                </div><br><br>
+                
+                <h2 id="contact">Contact</h2>
+                <div class="container"></div>
                 <div class="row">
                     <div class="offset-lg-2 col-lg-3 offset-1 col-10">
                         <br>
                         <div class="card">
-                            <img class="bd-placeholder-img card-img-top" width="100%" height="auto" src="https://pbs.twimg.com/profile_images/1320759536748163073/pOO2UtF1_400x400.jpg"
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="auto"
+                                src="https://pbs.twimg.com/profile_images/1320759536748163073/pOO2UtF1_400x400.jpg"
                                 preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap">
-                                <title>Placeholder</title>
+                            <title>Placeholder</title>
                             </img>
                             <div class="card-body">
                                 <h5 class="card-title">rin</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Rin-chan Corporation CEO</h6>
                                 <p class="card-text">フラシムでいろいろやってる大学生</p>
+                                <p class="card-text">最近はほとんど飛んでないらしい</p>
                                 <p class="card-text">VATSIM rating S2</p>
                                 <p class="card-text">Twitter: <a href="https://twitter.com/rin9147" class="card-link">rin9147</a></p>
-                                <p>御用はDMまで</p>
                             </div>
                         </div>
                     </div>
