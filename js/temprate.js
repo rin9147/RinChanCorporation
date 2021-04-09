@@ -11,7 +11,6 @@ function navbar(number){
     html += '<div class="collapse navbar-collapse" id="navbarNavAltMarkup"><div class="navbar-nav">';
     html += '<a class="nav-item nav-link active" href="' + path + '">Home</a>';
     html += '<a class="nav-item nav-link" href="' + path + '#scenery">Scenery</a>';
-    html += '<a class="nav-item nav-link" href="' + path + '#scenery">Scenery</a>';
     html += '<a class="nav-item nav-link" href="' + path + '#sector">Sector Files</a>';
     html += '<a class="nav-item nav-link" href="' + path + '#metar">Get METAR</a>';
     html += '<a class="nav-item nav-link" href="' + path + '#license">License</a>';
