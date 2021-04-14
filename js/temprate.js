@@ -13,6 +13,7 @@ function navbar(number){
     html += '<a class="nav-item nav-link active" href="' + path + '">Home</a>';
     html += '<a class="nav-item nav-link" href="' + path + '#scenery">Scenery</a>';
     html += '<a class="nav-item nav-link" href="' + path + '#sector">Sector Files</a>';
+    //html += '<a class="nav-item nav-link" href="' + path + '#repaint">Repaint</a>';
     html += '<a class="nav-item nav-link" href="' + path + '#metar">Get METAR</a>';
     html += '<a class="nav-item nav-link" href="' + path + '#license">License</a>';
     html += '<a class="nav-item nav-link" href="' + path + '#contact">Contact</a>';
